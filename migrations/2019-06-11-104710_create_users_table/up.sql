@@ -1,0 +1,7 @@
+-- Your SQL goes here
+CREATE TABLE users (
+  id INT(11) PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(60) NOT NULL,
+  email VARCHAR(60) NOT NULL,
+  address VARCHAR(60) NOT NULL
+);
